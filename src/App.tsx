@@ -6,6 +6,7 @@ import { Salts } from './components/salts/Salts';
 import { Soaks } from './components/soaks/Soaks';
 import { Masks } from './components/masks/Masks';
 import { Gifts } from './components/gifts/Gifts';
+import { Cart } from './components/cart/Cart';
 
 export interface AppProps {}
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/soaks" element={<Soaks />} />
           <Route path="/masks" element={<Masks />} />
           <Route path="/gifts" element={<Gifts />} />
+          <Route path="/cart" element={<Cart />} />
         </Routes>
       <Footer />
     </div>

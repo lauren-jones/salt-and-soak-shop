@@ -1,28 +1,46 @@
-import React from "react";
+import {useState} from "react";
 import { AnnouncementBar } from "react-ecommerce-ui-kit";
 import './header.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faShoppingBag } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faXmark, faShoppingBag } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
 export const Header = () => {
- return (
+  const [menuActive, setMenuActive] = useState(false);
+
+  function handleClick() {
+    setMenuActive(!menuActive);
+  }
+
+  if (menuActive) {
+    return (
     <header className="header">
       <AnnouncementBar announcement="Free delivery on all UK orders over £35"/>
       <div className="header-menu-bar">
-        <h1 className="header-menu-logo">Salt + Soak</h1>
-        <div className="header-menu-right">
-          <ul className="header-menu-links">
-            <li>
-              <Link to="/salts">Salts</Link>
-            </li>
-            <li>Soaks</li>
-            <li>Masks</li>
-            <li>Gifts</li>
-          </ul>
-          <FontAwesomeIcon icon={faShoppingBag} className="header-shopping-icon"/>
-        </div>
+        <button onClick={handleClick}><FontAwesomeIcon icon={faXmark} className="burger-menu"/></button>
+        <Link to="/" className="header-menu-logo"><h1 className="header-menu-logo">Salt + Soak</h1></Link>
+        <Link to="/cart" className="header-shopping-icon"><FontAwesomeIcon icon={faShoppingBag}/></Link>
+      </div>
+      <div className="menu-links">
+        <ul>
+          <li><Link to="/salts" className="menu-link-styling" onClick={handleClick}>Salts</Link></li>
+          <li><Link to="/soaks" className="menu-link-styling" onClick={handleClick}>Soaks</Link></li>
+          <li><Link to="/masks" className="menu-link-styling" onClick={handleClick}>Masks</Link></li>
+          <li><Link to="/gifts" className="menu-link-styling" onClick={handleClick}>Gifts</Link></li>
+        </ul>
       </div>
     </header>
- )
+    )
+  } else {
+    return (
+    <header className="header">
+      <AnnouncementBar announcement="Free delivery on all UK orders over £35"/>
+      <div className="header-menu-bar">
+        <button onClick={handleClick}><FontAwesomeIcon icon={faBars} className="burger-menu"/></button>
+        <Link to="/" className="header-menu-logo"><h1 className="header-menu-logo">Salt + Soak</h1></Link>
+        <Link to="/cart" className="header-shopping-icon"><FontAwesomeIcon icon={faShoppingBag}/></Link>
+      </div>
+    </header>
+    )
+  }
 };

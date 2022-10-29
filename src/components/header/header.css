@@ -10,30 +10,58 @@
   font-family: var(--secondary-font);
   text-transform: lowercase;
   letter-spacing: 0.05em;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.header-menu-logo h1 {
   font-size: 2.4rem;
   font-weight: 300;
 }
 
-.header-menu-right {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.header-menu-links {
-  list-style-type: none;
-  text-transform: uppercase;
-  font-family: var(--primary-font);
-  letter-spacing: 0.06em;
-  font-size: 0.9rem;
-  display: flex;
-  padding: 20px;
-}
-
-.header-menu-links li {
-  padding: 10px;
-}
-
 .header-shopping-icon {
   font-size: 1.6rem;
+  color: var(--primary-color);
+}
+
+.burger-menu {
+  font-size: 1.6rem;
+  color: var(--primary-color);
+}
+
+.header button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-links ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-links li {
+  padding: 5px 0;
+}
+
+.menu-link-styling {
+  font-size: 2.4rem;
+  font-weight: 300;
+  font-family: var(--secondary-font);
+  text-transform: lowercase;
+  letter-spacing: 0.05em;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.menu-link-styling:hover {
+  color: var(--background-alt);
 }
