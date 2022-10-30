@@ -1,0 +1,108 @@
+import { product } from 'react-ecommerce-ui-kit';
+
+export const saltsCategory: product[] = [
+    {
+        name: 'Fresca',
+        description: "As refreshing as sipping an Aperol spritz sat in a sun-drenched Italian piazza. These salts are a fruity treat! With zesty Italian lemon, cooling peppermint and uplifting verbena, our Fresca bath salts are the perfect blend of relaxing and refreshing.",
+        url: "/fresca-salts",
+        onSale: true,
+        currentPrice: 12.00,
+        originalPrice: 16.00,
+        additionalInfo: [
+            {title: 'Ingredients', content: 'Our unique blends of muscle-soothing Epsom salts, detoxifying Dead Sea salts and pink Himalayan rock salts hydrate your skin and relax your mind!'},
+            {title: 'How to use', content: 'We recommend a full handful of salts for a relaxing bath, or two handfuls if you’ve got some aches to fix.'},
+            {title: 'Delivery', content: 'We deliver across the UK via Royal Mail and offer two delivery options. Standard Delivery under £35 (3 - 5 working days) - £3.40. Special Delivery (1 - 2 working days) £5.00.'},],
+        images: ["/images/salts/fresca_1.webp", "/images/salts/fresca_2.webp", "/images/salts/fresca_3.webp"],
+    },
+    {
+        name: 'Lover',
+        description: "Light the candles, pull down the blinds and take off those clothes. Booty call or long-time beau, it’s time to get steamy. Bath for two, please (or for one - hello self-love!)",
+        url: "/lover-salts",
+        onSale: false,
+        currentPrice: 12.00,
+        originalPrice: 12.00,
+        additionalInfo: [
+            {title: 'Ingredients', content: 'Our unique blends of muscle-soothing Epsom salts, detoxifying Dead Sea salts and pink Himalayan rock salts hydrate your skin and relax your mind!'},
+            {title: 'How to use', content: 'We recommend a full handful of salts for a relaxing bath, or two handfuls if you’ve got some aches to fix.'},
+            {title: 'Delivery', content: 'We deliver across the UK via Royal Mail and offer two delivery options. Standard Delivery under £35 (3 - 5 working days) - £3.40. Special Delivery (1 - 2 working days) £5.00.'},],
+        images: ["/images/salts/lover_1.webp", "/images/salts/lover_2.webp", "/images/salts/lover_3.webp"],
+    },
+    {
+        name: 'Magic',
+        description: "Think crackling fires, cosy jumpers, steaming mugs of tea (or a large glass of red), pumpkin picking and autumnal movies (our faves are Practical Magic, When Harry Met Sally & You've Got Mail).",
+        url: "/magic-salts",
+        onSale: false,
+        currentPrice: 12.00,
+        originalPrice: 12.00,
+        additionalInfo: [
+            {title: 'Ingredients', content: 'Our unique blends of muscle-soothing Epsom salts, detoxifying Dead Sea salts and pink Himalayan rock salts hydrate your skin and relax your mind!'},
+            {title: 'How to use', content: 'We recommend a full handful of salts for a relaxing bath, or two handfuls if you’ve got some aches to fix.'},
+            {title: 'Delivery', content: 'We deliver across the UK via Royal Mail and offer two delivery options. Standard Delivery under £35 (3 - 5 working days) - £3.40. Special Delivery (1 - 2 working days) £5.00.'},],
+        images: ["/images/salts/magic_1.webp", "/images/salts/magic_2.webp", "/images/salts/magic_3.webp"],
+    },
+    {
+        name: 'Rose',
+        description: "Steamy & seductive, these relaxing floral bath salts combine the soft scent of rose with the spicy heat of black pepper to help you unwind and feel seriously sexy.",
+        url: "/rose-salts",
+        onSale: false,
+        currentPrice: 12.00,
+        originalPrice: 12.00,
+        additionalInfo: [
+            {title: 'Ingredients', content: 'Our unique blends of muscle-soothing Epsom salts, detoxifying Dead Sea salts and pink Himalayan rock salts hydrate your skin and relax your mind!'},
+            {title: 'How to use', content: 'We recommend a full handful of salts for a relaxing bath, or two handfuls if you’ve got some aches to fix.'},
+            {title: 'Delivery', content: 'We deliver across the UK via Royal Mail and offer two delivery options. Standard Delivery under £35 (3 - 5 working days) - £3.40. Special Delivery (1 - 2 working days) £5.00.'},],
+        images: ["/images/salts/rose_1.webp", "/images/salts/rose_2.webp", "/images/salts/rose_3.webp"],
+    },
+    {
+        name: 'Sleep',
+        description: "Our dreamy blend of herbal and floral essential oils help you relax and prepare to drift off, whilst natural salts soften your skin and soothe your muscles. Now off to bed, sleepy head.",
+        url: "/sleep-salts",
+        onSale: true,
+        currentPrice: 16.00,
+        originalPrice: 9.50,
+        additionalInfo: [
+            {title: 'Ingredients', content: 'Our unique blends of muscle-soothing Epsom salts, detoxifying Dead Sea salts and pink Himalayan rock salts hydrate your skin and relax your mind!'},
+            {title: 'How to use', content: 'We recommend a full handful of salts for a relaxing bath, or two handfuls if you’ve got some aches to fix.'},
+            {title: 'Delivery', content: 'We deliver across the UK via Royal Mail and offer two delivery options. Standard Delivery under £35 (3 - 5 working days) - £3.40. Special Delivery (1 - 2 working days) £5.00.'},],
+        images: ["/images/salts/sleep_1.webp", "/images/salts/sleep_2.webp", "/images/salts/sleep_3.webp"],
+    },
+    {
+        name: 'Squeeze',
+        description: "The fresh scent of grapefruit mingles perfectly with balancing rosemary to refresh and invigorate your senses, while our special blend of salts thoroughly moisturises your skin!",
+        url: "/squeeze-salts",
+        onSale: true,
+        currentPrice: 15.00,
+        originalPrice: 11.00,
+        additionalInfo: [
+            {title: 'Ingredients', content: 'Our unique blends of muscle-soothing Epsom salts, detoxifying Dead Sea salts and pink Himalayan rock salts hydrate your skin and relax your mind!'},
+            {title: 'How to use', content: 'We recommend a full handful of salts for a relaxing bath, or two handfuls if you’ve got some aches to fix.'},
+            {title: 'Delivery', content: 'We deliver across the UK via Royal Mail and offer two delivery options. Standard Delivery under £35 (3 - 5 working days) - £3.40. Special Delivery (1 - 2 working days) £5.00.'},],
+        images: ["/images/salts/squeeze_1.webp", "/images/salts/squeeze_2.webp", "/images/salts/squeeze_3.webp"],
+    },
+    {
+        name: 'Vanilla',
+        description: "Hey, sweet thing - we've got just the salts for you! These bath salts are full of a dreamy blend of vanilla and ylang ylang that will leave your skin softly scented and beautifully nourished.",
+        url: "/vanilla-salts",
+        onSale: false,
+        currentPrice: 12.00,
+        originalPrice: 12.00,
+        additionalInfo: [
+            {title: 'Ingredients', content: 'Our unique blends of muscle-soothing Epsom salts, detoxifying Dead Sea salts and pink Himalayan rock salts hydrate your skin and relax your mind!'},
+            {title: 'How to use', content: 'We recommend a full handful of salts for a relaxing bath, or two handfuls if you’ve got some aches to fix.'},
+            {title: 'Delivery', content: 'We deliver across the UK via Royal Mail and offer two delivery options. Standard Delivery under £35 (3 - 5 working days) - £3.40. Special Delivery (1 - 2 working days) £5.00.'},],
+        images: ["/images/salts/vanilla_1.webp", "/images/salts/vanilla_2.webp", "/images/salts/vanilla_3.webp"],
+    },
+    {
+        name: 'Wild Ride',
+        description: "Has it been A DAY? We feel you. So here’s our advice; take a load off, grab a bottle of cheap-but-not-too-cheap wine, get naked and GET SALTY.",
+        url: "/wild-ride-salts",
+        onSale: false,
+        currentPrice: 12.00,
+        originalPrice: 12.00,
+        additionalInfo: [
+            {title: 'Ingredients', content: 'Our unique blends of muscle-soothing Epsom salts, detoxifying Dead Sea salts and pink Himalayan rock salts hydrate your skin and relax your mind!'},
+            {title: 'How to use', content: 'We recommend a full handful of salts for a relaxing bath, or two handfuls if you’ve got some aches to fix.'},
+            {title: 'Delivery', content: 'We deliver across the UK via Royal Mail and offer two delivery options. Standard Delivery under £35 (3 - 5 working days) - £3.40. Special Delivery (1 - 2 working days) £5.00.'},],
+        images: ["/images/salts/wildride_1.webp", "/images/salts/wildride_2.webp", "/images/salts/wildride_3.webp"],
+    },
+]
