@@ -1,0 +1,32 @@
+.footer-section {
+  background: var(--background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  color: var(--primary-color);
+}
+
+.footer-section h3 {
+  font-family: var(--primary-font);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+}
+
+.footer-section p {
+  font-family: var(--primary-font);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.7rem;
+}
+
+.footer-section a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: var(--background-alt);
+}

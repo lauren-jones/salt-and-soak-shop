@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
-import { Home } from './components/Home';
+import { Home } from './components/home/Home';
 import { Header } from './components/header/Header';
-import { Footer } from './components/Footer';
+import { Footer } from './components/footer/Footer';
 import { Salts } from './components/salts/Salts';
 import { Soaks } from './components/soaks/Soaks';
 import { Masks } from './components/masks/Masks';
