@@ -1,5 +1,5 @@
 .footer-section {
-  background: var(--background);
+  background: var(--background-alt);
   display: flex;
   flex-direction: column;
   justify-content: center;

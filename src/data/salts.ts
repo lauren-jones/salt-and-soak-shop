@@ -4,7 +4,7 @@ export const saltsCategory: product[] = [
     {
         name: 'Fresca',
         description: "As refreshing as sipping an Aperol spritz sat in a sun-drenched Italian piazza. These salts are a fruity treat! With zesty Italian lemon, cooling peppermint and uplifting verbena, our Fresca bath salts are the perfect blend of relaxing and refreshing.",
-        url: "/fresca-salts",
+        url: "/product/fresca",
         onSale: true,
         currentPrice: 12.00,
         originalPrice: 16.00,
@@ -17,7 +17,7 @@ export const saltsCategory: product[] = [
     {
         name: 'Lover',
         description: "Light the candles, pull down the blinds and take off those clothes. Booty call or long-time beau, it’s time to get steamy. Bath for two, please (or for one - hello self-love!)",
-        url: "/lover-salts",
+        url: "/product/lover",
         onSale: false,
         currentPrice: 12.00,
         originalPrice: 12.00,
@@ -30,7 +30,7 @@ export const saltsCategory: product[] = [
     {
         name: 'Magic',
         description: "Think crackling fires, cosy jumpers, steaming mugs of tea (or a large glass of red), pumpkin picking and autumnal movies (our faves are Practical Magic, When Harry Met Sally & You've Got Mail).",
-        url: "/magic-salts",
+        url: "/product/magic",
         onSale: false,
         currentPrice: 12.00,
         originalPrice: 12.00,
@@ -43,7 +43,7 @@ export const saltsCategory: product[] = [
     {
         name: 'Rose',
         description: "Steamy & seductive, these relaxing floral bath salts combine the soft scent of rose with the spicy heat of black pepper to help you unwind and feel seriously sexy.",
-        url: "/rose-salts",
+        url: "/product/rose",
         onSale: false,
         currentPrice: 12.00,
         originalPrice: 12.00,
@@ -56,7 +56,7 @@ export const saltsCategory: product[] = [
     {
         name: 'Sleep',
         description: "Our dreamy blend of herbal and floral essential oils help you relax and prepare to drift off, whilst natural salts soften your skin and soothe your muscles. Now off to bed, sleepy head.",
-        url: "/sleep-salts",
+        url: "/product/sleep",
         onSale: true,
         currentPrice: 16.00,
         originalPrice: 9.50,
@@ -69,7 +69,7 @@ export const saltsCategory: product[] = [
     {
         name: 'Squeeze',
         description: "The fresh scent of grapefruit mingles perfectly with balancing rosemary to refresh and invigorate your senses, while our special blend of salts thoroughly moisturises your skin!",
-        url: "/squeeze-salts",
+        url: "/product/squeeze",
         onSale: true,
         currentPrice: 15.00,
         originalPrice: 11.00,
@@ -82,7 +82,7 @@ export const saltsCategory: product[] = [
     {
         name: 'Vanilla',
         description: "Hey, sweet thing - we've got just the salts for you! These bath salts are full of a dreamy blend of vanilla and ylang ylang that will leave your skin softly scented and beautifully nourished.",
-        url: "/vanilla-salts",
+        url: "/product/vanilla",
         onSale: false,
         currentPrice: 12.00,
         originalPrice: 12.00,
@@ -95,7 +95,7 @@ export const saltsCategory: product[] = [
     {
         name: 'Wild Ride',
         description: "Has it been A DAY? We feel you. So here’s our advice; take a load off, grab a bottle of cheap-but-not-too-cheap wine, get naked and GET SALTY.",
-        url: "/wild-ride-salts",
+        url: "/product/wild ride",
         onSale: false,
         currentPrice: 12.00,
         originalPrice: 12.00,

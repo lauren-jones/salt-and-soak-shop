@@ -22,6 +22,7 @@
   font-size: 0.9rem;
   color: var(--primary-color);
   font-weight: 400;
+  text-align: center;
 }
 
 .category-products-container {
@@ -32,4 +33,10 @@
 
 .category-product-container {
   margin: 20px;
+}
+
+@media only screen and (max-width: 780px) {
+  .category-products-container {
+    grid-template-columns: 1fr;
+  }
 }

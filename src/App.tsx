@@ -7,6 +7,7 @@ import { Soaks } from './components/soaks/Soaks';
 import { Masks } from './components/masks/Masks';
 import { Gifts } from './components/gifts/Gifts';
 import { Cart } from './components/cart/Cart';
+import Product from './components/product/Product';
 
 export interface AppProps {}
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/masks" element={<Masks />} />
           <Route path="/gifts" element={<Gifts />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/product/:name" element={<Product />} />
         </Routes>
       <Footer />
     </div>
