@@ -1,5 +1,5 @@
 .footer-section {
-  background: var(--background-alt);
+  background: var(--background);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,16 +17,23 @@
 
 .footer-section p {
   font-family: var(--primary-font);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
+  text-align: center;
 }
 
 .footer-section a {
   color: var(--primary-color);
   text-decoration: none;
+  padding: 10px;
 }
 
 .footer-section a:hover {
-  color: white;
+  color: var(--background-alt);
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
 }
