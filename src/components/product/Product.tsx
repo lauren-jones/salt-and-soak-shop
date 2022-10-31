@@ -10,11 +10,14 @@ export default function Product() {
 
     const chosenProduct = productsData.filter(product => product.name.toLowerCase() === name);
 
+    const start = chosenProduct[0].id;
+    const end = productsData.length - 1;
+
     return (
         <div>
             <ProductPage product={chosenProduct[0]}/>
             <div className="recommended-products-section">
-                <RecommendedProducts title="You may also like" products={[productsData[0], productsData[1], productsData[2]]} />
+                <RecommendedProducts title="You may also like" products={[productsData[(start) % end], productsData[(start + 1) % end], productsData[(start + 2) % end]]} />
             </div>
         </div>
     )
