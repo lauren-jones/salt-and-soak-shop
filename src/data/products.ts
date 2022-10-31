@@ -1,6 +1,6 @@
 import { product } from 'react-ecommerce-ui-kit';
 
-export const saltsCategory: product[] = [
+export const productsData: product[] = [
     {
         id: 1,
         category: "salts",

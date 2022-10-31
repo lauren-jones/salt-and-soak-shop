@@ -23,10 +23,10 @@ export const Header = () => {
       </div>
       <div className="menu-links">
         <ul>
-          <li><Link to="/salts" className="menu-link-styling" onClick={handleClick}>Salts</Link></li>
-          <li><Link to="/soaks" className="menu-link-styling" onClick={handleClick}>Soaks</Link></li>
-          <li><Link to="/masks" className="menu-link-styling" onClick={handleClick}>Masks</Link></li>
-          <li><Link to="/gifts" className="menu-link-styling" onClick={handleClick}>Gifts</Link></li>
+          <li><Link to="/category/salts" title="" className="menu-link-styling" onClick={handleClick}>Salts</Link></li>
+          <li><Link to="/category/steams" className="menu-link-styling" onClick={handleClick}>Steams</Link></li>
+          <li><Link to="/category/masks" className="menu-link-styling" onClick={handleClick}>Masks</Link></li>
+          <li><Link to="/category/gifts" className="menu-link-styling" onClick={handleClick}>Gifts</Link></li>
         </ul>
       </div>
     </header>
