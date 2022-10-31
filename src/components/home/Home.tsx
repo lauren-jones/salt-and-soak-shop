@@ -17,6 +17,8 @@ export const Home = () => {
          <section className="trending-products-section">
             <RecommendedProducts title="Autumn favourites" products={[
                {
+                  id: 1,
+                  category: "salts",
                   onSale: false,
                   description: "",
                   url: "/",
@@ -26,10 +28,12 @@ export const Home = () => {
                   ],
                   currentPrice: 12.00,
                   originalPrice: 12.00,
-                  images: ["/images/salts/magic_1.webp", "/images/salts/magic_2.webp", "/images/salts/magic_3.webp"],
+                  images: ["/images/salts/magic_1.webp", "/images/salts/magic_2.webp"],
                   name: 'Wild Ride',
                },
                {
+                  id: 1,
+                  category: "salts",
                   onSale: false,
                   description: "",
                   url: "/",
@@ -39,10 +43,12 @@ export const Home = () => {
                   ],
                   currentPrice: 12.00,
                   originalPrice: 12.00,
-                  images: ["/images/salts/magic_1.webp", "/images/salts/magic_2.webp", "/images/salts/magic_3.webp"],
+                  images: ["/images/salts/magic_1.webp", "/images/salts/magic_2.webp"],
                   name: 'Wild Ride',
                },
                {
+                  id: 1,
+                  category: "salts",
                   onSale: false,
                   description: "",
                   url: "/",
@@ -52,34 +58,34 @@ export const Home = () => {
                   ],
                   currentPrice: 12.00,
                   originalPrice: 12.00,
-                  images: ["/images/salts/magic_1.webp", "/images/salts/magic_2.webp", "/images/salts/magic_3.webp"],
+                  images: ["/images/salts/magic_1.webp", "/images/salts/magic_2.webp"],
                   name: 'Wild Ride',
                },
             ]}/>
          </section>
          <section className="categories-section">
             <HomeCategories HomeCategories={[
-               { category: "Salts", image: "images/salts.webp", url: "/salts",},
-               { category: "Soaks", image: "images/soaks.webp", url: "/soaks",},
-               { category: "Masks", image: "images/masks.webp", url: "/masks",},
-               { category: "Gifts", image: "images/gifts.webp", url: "/gifts",}
+               { category: "Salts", image: "/images/home/salts.webp", url: "/salts",},
+               { category: "Soaks", image: "/images/home/soaks.webp", url: "/soaks",},
+               { category: "Masks", image: "/images/home/masks.webp", url: "/masks",},
+               { category: "Gifts", image: "/images/home/gifts.webp", url: "/gifts",}
             ]}/>
          </section>
          <section className="values-section">
             <Values title="Our ethics" values={[{
                heading: "100% Cruelty Free",
                description: "We're proud to be totally cruelty free - none of our ingredients or finished products are tested on animals!",
-               image: "/images/vegan.webp",
+               image: "/images/home/vegan.webp",
             },
             {
                heading: "Totally Eco-Friendly",
                description: "Our products and packaging are 100% plastic-free! We're talking compostable, biodegradable & re-useable only.",
-               image: "/images/earth.webp",
+               image: "/images/home/earth.webp",
             },
             {
                heading: "Completely Vegan",
                description: "We're big animal lovers, so we don't use any animal products or by-products in our goodies!",
-               image: "/images/leaf.webp",
+               image: "/images/home/leaf.webp",
             }]} />
          </section>
       </div>
