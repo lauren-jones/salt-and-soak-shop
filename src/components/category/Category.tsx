@@ -21,7 +21,7 @@ export const Category = () => {
             {
                products.map(function (product, index) {
                   return (
-                     <div className="category-product-container">
+                     <div className="category-product-container" key={index}>
                         <ProductCard product={product} />
                      </div>
                   )
