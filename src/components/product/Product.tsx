@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom"
 import './product.css';
 import { productsData } from "../../data/products";
+import { Session } from "../../data/session";
 import { ProductPage, RecommendedProducts } from "react-ecommerce-ui-kit";
 
 export default function Product() {
@@ -35,13 +36,13 @@ export default function Product() {
     }
 
     // Handle add to basket
-    const addToCart = () => {
-
+    const AddToCart = () => {
+        Session.push({product: chosenProduct[0], quantity: counter});
     }
 
     return (
         <div>
-            <ProductPage key={chosenProduct[0].id} product={chosenProduct[0]} AddToCart={addToCart} HandleIncrease={HandleIncrease} HandleDecrease={HandleDecrease} quantity={counter} />
+            <ProductPage key={chosenProduct[0].id} product={chosenProduct[0]} AddToCart={AddToCart} HandleIncrease={HandleIncrease} HandleDecrease={HandleDecrease} quantity={counter} />
             <div className="recommended-products-section">
             <RecommendedProducts title="You may also like" products={[productsData[(start) % end], productsData[(start + 1) % end], productsData[(start + 2) % end]]} />
             </div>
