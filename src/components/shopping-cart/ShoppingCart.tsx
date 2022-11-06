@@ -27,6 +27,9 @@ export const ShoppingCart = () => {
 
     return (
         <div className="shopping-cart">
+            <div className="notice-box">
+                <p> * please note this cart is for presentational purposes only, and the functionality to update and delete products has not yet been implemented. *</p>
+            </div>
             <Cart cartProducts={Session} handleUpdate={handleUpdate} handleDelete={handleDelete} toCheckout={toCheckout} HandleIncrease={handleIncrease} HandleDecrease={handleDecrease}/>
         </div>
     )
